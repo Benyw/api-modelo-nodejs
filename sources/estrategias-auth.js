@@ -66,3 +66,6 @@ passport.use(
     }
   )
 )
+
+// PARA GERAR CHAVE_JWT
+// node -e "console.log( require('crypto').randomBytes(256).toString('base64') )"
